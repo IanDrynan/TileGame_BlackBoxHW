@@ -1,8 +1,8 @@
-#Tile Jumper
+# Tile Jumper
 
 A simple platformer game made in 2 days to practice using a few design principles. State machines for player control and powerup management.
 
-###Reflection
+### Reflection
 
 If I were to write this again I would use the template method to eliminate some of the redundancy in the code for the special tiles.
 I also used an ugly way to move the character since I couldn't find a nice way of moving precisely 1 tile without messing up the character 
@@ -12,16 +12,16 @@ other solution might have been better.
 ![alt text](https://github.com/IanDrynan/TileJumper/blob/master/TileJumper.PNG)
 
 
-###Objective:
+### Objective:
 
 Navigate the Sphere to the goal tiles at the end of the grid.
 
-###Rules:
+### Rules:
 
 The color of the Sphere character must match the color of the tile he lands on. 
 Does not include tiles with pictures on them as they are special tiles.
 
-###Special Tiles:
+### Special Tiles:
 
 Red Skull = Lose
 
@@ -31,7 +31,7 @@ Blue Side Arrows = Jump 2 spaces when moving side to side.
 
 White Question Mark = Inverses player controls.
 
-###Controls:
+### Controls:
 
 WASD for movement.
 
